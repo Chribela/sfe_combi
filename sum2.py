@@ -1,4 +1,4 @@
-
+from odd import OddNumbers
 class Solution: 
   def summation(self, nums :list[int])->list[int]: 
 
@@ -8,7 +8,9 @@ class Solution:
 
       #Compute the sum of all the numbers
       sum_all_numbers = sum(nums)
-      print(f"\nSum of all numbers: {sum_all_numbers}")
+      print(f"\nSum of all numbers : {sum_all_numbers}")
+      odd_sol = OddNumbers()
+      odd_sol.compute_odds(nums)
     
 sol= Solution();
 
