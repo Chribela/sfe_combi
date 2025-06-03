@@ -1,0 +1,6 @@
+class EvenNumbers:
+    def compute_evens(self, nums: list[int]) -> list[int]:
+        even_numbers = [num for num in nums if num % 2 == 0]
+        sum_even_numbers = sum(even_numbers)
+        print(f"Sum of even numbers : {sum_even_numbers}")
+        return even_numbers
